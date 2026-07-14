@@ -1,13 +1,26 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
 #display{
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     text-align: right;
-    height: 40px;
-    width: 300px;
+    min-height: 40px;
+    max-width: 250px;
     border: solid black 1px;
 }
+#operatorButtons{
+    display: flex;
+    flex-direction: column;
+}
 
-div .row button {
+#buttons{
+    display: flex;
+}
+
+button {
     height: 40px;
     width: 40px;
     padding: 0;
